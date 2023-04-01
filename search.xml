@@ -20,7 +20,7 @@
   <entry>
     <title>博客的目的</title>
     <url>/cn/1/</url>
-    <content><![CDATA[<p>为了面向建筑学的只是分享，交流。<br />
+    <content><![CDATA[<p>为了面向建筑学的知识分享，交流。<br />
 平时会分享一些专业知识和分析手段。<br />
 不论是建筑学的结构、环境、设计等方向，只要对建筑学感兴趣的人都非常欢迎！</p>
 ]]></content>
@@ -55,8 +55,8 @@
         <category>日本語</category>
       </categories>
       <tags>
-        <tag>建築力学</tag>
         <tag>日本語</tag>
+        <tag>建築力学</tag>
       </tags>
   </entry>
 </search>
