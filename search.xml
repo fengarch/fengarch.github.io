@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>ブログの目的</title>
+    <url>/ja/1/</url>
+    <content><![CDATA[<p>中国の留学生、今は東京理科大学の建築専攻の一年生です。<br />
+建築学の知識、解析方法など交流とシェアのため、自分のブログを作りました。<br />
+普段の勉強と解析経験をシェアする予定があります！<br />
+建築の材料、構造、意匠に拘らず建築学に興味がある人は大歓迎です！</p>
+]]></content>
+      <categories>
+        <category>日本語</category>
+      </categories>
+      <tags>
+        <tag>雑談</tag>
+        <tag>鉄鋼構造</tag>
+        <tag>日本語</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>博客的目的</title>
+    <url>/cn/1/</url>
+    <content><![CDATA[<p>为了面向建筑学的只是分享，交流。<br />
+平时会分享一些专业知识和分析手段。<br />
+不论是建筑学的结构、环境、设计等方向，只要对建筑学感兴趣的人都非常欢迎！</p>
+]]></content>
+      <categories>
+        <category>中文</category>
+      </categories>
+      <tags>
+        <tag>中文</tag>
+        <tag>雑談</tag>
+        <tag>鉄鋼構造</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>应力和应变</title>
+    <url>/cn/2/</url>
+    <content><![CDATA[
+]]></content>
+      <categories>
+        <category>中文</category>
+      </categories>
+      <tags>
+        <tag>建筑力学</tag>
+        <tag>中文</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>応力とひずみ</title>
+    <url>/ja/2/</url>
+    <content><![CDATA[
+]]></content>
+      <categories>
+        <category>日本語</category>
+      </categories>
+      <tags>
+        <tag>建築力学</tag>
+        <tag>日本語</tag>
+      </tags>
+  </entry>
+</search>
