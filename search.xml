@@ -77,7 +77,7 @@
 class="math display">\[合力の曲げモーメント=分力の曲げモーメントの総合\]</span>
 </center>
 <p>　図4の例のように、合力のPは分力の和で<span
-class="math display">\[P=P_{A}+P_{B}\]</span>、合力の位置はバリニオンの定理により、</p>
+class="math display">\[P=P_{A}+P_{B}\]</span>合力の位置はバリニオンの定理により、</p>
 <center>
 <span class="math display">\[P·x=P_{A}·0+P_{B}·300\]</span>
 </center>
@@ -120,8 +120,8 @@ class="math display">\[P_{まとめたいの方向の力}=\frac{P_{まとめた�
         <category>中文</category>
       </categories>
       <tags>
-        <tag>建筑力学</tag>
         <tag>中文</tag>
+        <tag>建筑力学</tag>
       </tags>
   </entry>
 </search>
