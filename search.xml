@@ -34,9 +34,74 @@
       </tags>
   </entry>
   <entry>
-    <title>応力とひずみ</title>
+    <title>建築力学ー力の基礎(1)</title>
     <url>/ja/2/</url>
-    <content><![CDATA[
+    <content><![CDATA[<h1 id="力の表現">1. 力の表現</h1>
+　構造力学を勉強するため、必要な力の表現方法を解説すべきです。<br />
+　図１のように、ポイントで力を受ける時に、この力を一本の矢印によって表現されます。
+<center>
+<img src="\images\1-1.png" />
+</center>
+<center>
+図1　点に集中する力学の表現
+</center>
+<p>　力の表現には、大きさ、作用点、方向の表現が必要です。これらを「力の三要素」といいます。
+構造力学の中で、力の単位は常にN(ニュートン)とkN(キロニュートン)を使います。</p>
+<h1 id="力の和">2. 力の和</h1>
+<h2 id="一直線の力">(1) 一直線の力</h2>
+　複数の力が存在する時、力の和を計算するには、＋の方向を定めて各力の和をとります。図2のように、水平方向の4つの力の計算例です。<br />
+
+<center>
+水平方向の力の和=30N+20N-20N-50N=-20N(右を+とする場合)
+</center>
+<center>
+<img src="\images\1-2.png" />
+</center>
+<center>
+図2 一直線の力の和
+</center>
+<h2 id="一点に作用する力">(2) 一点に作用する力</h2>
+　点が複数の力を異なる方向で受ける時に、直接的に足しあうことができないので図3のように計算すべきです。<br />
+
+<center>
+<img src="\images\1-3.png" />
+</center>
+<center>
+図3 力の平行四辺形
+</center>
+<h2 id="平衡に並ぶ力の和">(3) 平衡に並ぶ力の和</h2>
+　二つの力が一直線に鉛直される時に、簡単に足しあうことで合力の大きさが計算できるが、この合力の位置が計算できない。この時、バリニオンの定理を使わなければならない。<br />
+　バリニオンの定理:
+<center>
+<span
+class="math display">\[合力の曲げモーメント=分力の曲げモーメントの総合\]</span>
+</center>
+<p>　図4の例のように、合力のPは分力の和で<span
+class="math display">\[P=P_{A}+P_{B}\]</span>、合力の位置はバリニオンの定理により、</p>
+<center>
+<span class="math display">\[P·x=P_{A}·0+P_{B}·300\]</span>
+</center>
+<center>
+<span class="math display">\[x=\frac{P_{B}}{P}·300\]</span>
+</center>
+<p>で計算できます。</p>
+<center>
+<img src="\images\1-4.png" />
+</center>
+<center>
+図3 平衡に並ぶ力
+</center>
+<h1 id="力の分解">3. 力の分解</h1>
+<p>　力の分解は一点に作用する力の合力の計算流れに相反で、分解したい方向を定めて分力が計算できます。</p>
+<center>
+<span
+class="math display">\[P_{まとめたいの方向の力}=\frac{P_{まとめたいの方向の辺の長さ}}{P_{斜めの辺の長さ}}·P_{元}\]</span>
+</center>
+<h1 id="まとめ">4. まとめ</h1>
+　今回のことは高校生の時の物理科目として勉強すべきなので難しくなくて最も易しい知識です。
+<center>
+<img src="\images\1.gif" />
+</center>
 ]]></content>
       <categories>
         <category>日本語</category>
