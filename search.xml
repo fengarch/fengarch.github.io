@@ -1,113 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>ブログの目的</title>
-    <url>/ja/1/</url>
-    <content><![CDATA[<p>中国の留学生、今は東京理科大学の建築専攻の一年生です。<br />
-建築学の知識、解析方法など交流とシェアのため、自分のブログを作りました。<br />
-普段の勉強と解析経験をシェアする予定があります！<br />
-建築の材料、構造、意匠に拘らず建築学に興味がある人は大歓迎です！</p>
-]]></content>
-      <categories>
-        <category>日本語</category>
-      </categories>
-      <tags>
-        <tag>日本語</tag>
-        <tag>雑談</tag>
-        <tag>鉄鋼構造</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>博客的目的</title>
-    <url>/zh-CN/1/</url>
-    <content><![CDATA[<p>为了面向建筑学的知识分享，交流。<br />
-平时会分享一些专业知识和分析手段。<br />
-不论是建筑学的结构、环境、设计等方向，只要对建筑学感兴趣的人都非常欢迎！</p>
-]]></content>
-      <categories>
-        <category>中文</category>
-      </categories>
-      <tags>
-        <tag>雑談</tag>
-        <tag>鉄鋼構造</tag>
-        <tag>中文</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>应力和应变</title>
-    <url>/zh-CN/2/</url>
-    <content><![CDATA[<h1 id="力的三要素">1. 力的三要素</h1>
-在学习建筑力学前，我们需要先清楚力的三要素。<br />
-如图1所示，在受到集中力荷载的时候，我们可以将力简化为一个带箭头的直线。
-<center>
-<img src="\images\1-1.png" />
-</center>
-<center>
-图1 集中力的表达方式
-</center>
-<p>力的大小，作用位置和力的方向被称为力的三要素。在建筑力学中，我们通常使用N和kN来作为力的单位。</p>
-<h1 id="合力">2. 合力</h1>
-<h2 id="同方向的力">(1) 同方向的力</h2>
-当同时在一条线上存在多个力时，我们可以先定好力的正方向。如图2所示，4个力的合力如图计算。
-<center>
-水平方向的力的和=30N+20N-20N-50N=-20N(右向为正（+）)
-</center>
-<center>
-<img src="\images\1-2.png" />
-</center>
-<center>
-图二 同方向合力
-</center>
-<h2 id="同一点集中作用但方向不同的力">(2)
-同一点集中作用但方向不同的力</h2>
-在一点同时集中作用多个方向的力时，我们不能用上面的方法进行计算，而应用图3所示的平行四边形法来进行计算。
-<center>
-<img src="\images\1-3.png" />
-</center>
-<center>
-図3 力的平行四辺形
-</center>
-<h2 id="平的排列的力">(3) 平的排列的力</h2>
-<p>当两个力垂直于一条直线且平行时，可以通过简单地相加可以计算合力的大小，但不能计算该合力的位置。此时，可以利用弯矩进行计算。</p>
-　利用弯矩的计算方法:
-<center>
-<span class="math display">\[合力的弯矩=分力的弯矩和\]</span>
-</center>
-<p>如图4所示，合力P可以用分力<span
-class="math display">\[P=P_{A}+P_{B}\]</span>的弯矩和来进行计算。</p>
-<center>
-<span class="math display">\[P·x=P_{A}·0+P_{B}·300\]</span>
-</center>
-<center>
-<span class="math display">\[x=\frac{P_{B}}{P}·300\]</span>
-</center>
-<center>
-<img src="\images\1-4.png" />
-</center>
-<center>
-图3 平行力的计算
-</center>
-<h1 id="力的分解">3. 力的分解</h1>
-<p>力的分解与作用在一点上的力的合力的计算流程相反，可以确定想要分解的方向来计算分力。</p>
-<center>
-<span
-class="math display">\[P_{方向力}=\frac{P_{分力边长A}}{P_{斜边长}}·P_{合力}\]</span>
-</center>
-<h1 id="总结">4. 总结</h1>
-　这次的内容在高中时的应该会在物理课来学习，所以不难理解且是最简单的知识。
-<center>
-<img src="\images\1.gif" />
-</center>
-]]></content>
-      <categories>
-        <category>中文</category>
-      </categories>
-      <tags>
-        <tag>建筑力学</tag>
-        <tag>中文</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>建築力学ー力の基礎(1)</title>
     <url>/ja/2/</url>
     <content><![CDATA[<h1 id="力の表現">1. 力の表現</h1>
@@ -183,6 +76,152 @@ class="math display">\[P_{まとめたいの方向の力}=\frac{P_{まとめた�
       <tags>
         <tag>建築力学</tag>
         <tag>日本語</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>ブログの目的</title>
+    <url>/ja/1/</url>
+    <content><![CDATA[<p>中国の留学生、今は東京理科大学の建築専攻の一年生です。<br />
+建築学の知識、解析方法など交流とシェアのため、自分のブログを作りました。<br />
+普段の勉強と解析経験をシェアする予定があります！<br />
+建築の材料、構造、意匠に拘らず建築学に興味がある人は大歓迎です！</p>
+]]></content>
+      <categories>
+        <category>日本語</category>
+      </categories>
+      <tags>
+        <tag>日本語</tag>
+        <tag>雑談</tag>
+        <tag>鉄鋼構造</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>雑談1</title>
+    <url>/ja/3/</url>
+    <content><![CDATA[<h2 id="はじめに">はじめに</h2>
+　日本に来た半年間ぐらいですが、今日はいよいよはじめに正式に授業を受けられました。この半年間は中国と日本の違う言語、慣習とか大変かたいです。そういえば、今まででも飲食店では店員さんの話しが時々理解できないで大変こまってる。でも、風俗とかの違いを感じるのは留学の大切な経験なので貴重な体験として未来の人生には思い出ると思います。
+<center>
+<img src="\images\Z-1.jpg" />
+</center>
+<h2 id="入学式">入学式</h2>
+　武道館で入学式を開催されました。（ちなみに葛飾から遠すぎじゃん）先日の強い雨風から、千鳥ヶ淵の桜が全部散ったで、大変惜しいです。<br />
+　当日には、入場時間より早く至ったので、看板周辺で撮ってる同僚さんが多くないでも、私は撮りません！
+<center>
+<img src="\images\Z-2.jpg" />
+</center>
+<center>
+これは前話した看板じゃない!
+</center>
+<center>
+<img src="\images\Z-3.jpg" />
+</center>
+席は会場の三階で学部生の親の対面！（ちなみに何でiphoneのカメラの色が元からこんなに差別あるの？）
+<center>
+<img src="\images\Z-4.jpg" />
+</center>
+<h2
+id="fc東京fc東京fc東京fc東京fc東京">FC東京FC東京FC東京FC東京FC東京</h2>
+FC東京を応援してお願いしますニャー。FC東京を応援してお願いします、ありがたいニャー。
+<center>
+<img src="\images\Z-5.jpg" />
+</center>
+]]></content>
+      <categories>
+        <category>日本語</category>
+      </categories>
+      <tags>
+        <tag>日本語</tag>
+        <tag>雑談</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>博客的目的</title>
+    <url>/zh-CN/1/</url>
+    <content><![CDATA[<p>为了面向建筑学的知识分享，交流。<br />
+平时会分享一些专业知识和分析手段。<br />
+不论是建筑学的结构、环境、设计等方向，只要对建筑学感兴趣的人都非常欢迎！</p>
+]]></content>
+      <categories>
+        <category>中文</category>
+      </categories>
+      <tags>
+        <tag>雑談</tag>
+        <tag>鉄鋼構造</tag>
+        <tag>中文</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>建筑力学-绪论（1）</title>
+    <url>/zh-CN/2/</url>
+    <content><![CDATA[<h1 id="力的三要素">1. 力的三要素</h1>
+在学习建筑力学前，我们需要先清楚力的三要素。<br />
+如图1所示，在受到集中力荷载的时候，我们可以将力简化为一个带箭头的直线。
+<center>
+<img src="\images\1-1.png" />
+</center>
+<center>
+图1 集中力的表达方式
+</center>
+<p>力的大小，作用位置和力的方向被称为力的三要素。在建筑力学中，我们通常使用N和kN来作为力的单位。</p>
+<h1 id="合力">2. 合力</h1>
+<h2 id="同方向的力">(1) 同方向的力</h2>
+当同时在一条线上存在多个力时，我们可以先定好力的正方向。如图2所示，4个力的合力如图计算。
+<center>
+水平方向的力的和=30N+20N-20N-50N=-20N(右向为正（+）)
+</center>
+<center>
+<img src="\images\1-2.png" />
+</center>
+<center>
+图二 同方向合力
+</center>
+<h2 id="同一点集中作用但方向不同的力">(2)
+同一点集中作用但方向不同的力</h2>
+在一点同时集中作用多个方向的力时，我们不能用上面的方法进行计算，而应用图3所示的平行四边形法来进行计算。
+<center>
+<img src="\images\1-3.png" />
+</center>
+<center>
+図3 力的平行四辺形
+</center>
+<h2 id="平的排列的力">(3) 平的排列的力</h2>
+<p>当两个力垂直于一条直线且平行时，可以通过简单地相加可以计算合力的大小，但不能计算该合力的位置。此时，可以利用弯矩进行计算。</p>
+　利用弯矩的计算方法:
+<center>
+<span class="math display">\[合力的弯矩=分力的弯矩和\]</span>
+</center>
+<p>如图4所示，合力P可以用分力<span
+class="math display">\[P=P_{A}+P_{B}\]</span>的弯矩和来进行计算。</p>
+<center>
+<span class="math display">\[P·x=P_{A}·0+P_{B}·300\]</span>
+</center>
+<center>
+<span class="math display">\[x=\frac{P_{B}}{P}·300\]</span>
+</center>
+<center>
+<img src="\images\1-4.png" />
+</center>
+<center>
+图3 平行力的计算
+</center>
+<h1 id="力的分解">3. 力的分解</h1>
+<p>力的分解与作用在一点上的力的合力的计算流程相反，可以确定想要分解的方向来计算分力。</p>
+<center>
+<span
+class="math display">\[P_{方向力}=\frac{P_{分力边长A}}{P_{斜边长}}·P_{合力}\]</span>
+</center>
+<h1 id="总结">4. 总结</h1>
+　这次的内容在高中时的应该会在物理课来学习，所以不难理解且是最简单的知识。
+<center>
+<img src="\images\1.gif" />
+</center>
+]]></content>
+      <categories>
+        <category>中文</category>
+      </categories>
+      <tags>
+        <tag>中文</tag>
+        <tag>建筑力学</tag>
       </tags>
   </entry>
 </search>
