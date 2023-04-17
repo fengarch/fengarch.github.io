@@ -1,84 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>建築力学ー力の基礎(1)</title>
-    <url>/ja/2/</url>
-    <content><![CDATA[<h1 id="力の表現">1. 力の表現</h1>
-　構造力学を勉強するため、必要な力の表現方法を解説すべきです。<br />
-　図１のように、ポイントで力を受ける時に、この力を一本の矢印によって表現されます。
-<center>
-<img src="\images\1-1.png" />
-</center>
-<center>
-図1　点に集中する力学の表現
-</center>
-<p>　力の表現には、大きさ、作用点、方向の表現が必要です。これらを「力の三要素」といいます。
-構造力学の中で、力の単位は常にN(ニュートン)とkN(キロニュートン)を使います。</p>
-<h1 id="力の和">2. 力の和</h1>
-<h2 id="一直線の力">(1) 一直線の力</h2>
-　複数の力が存在する時、力の和を計算するには、＋の方向を定めて各力の和をとります。図2のように、水平方向の4つの力の計算例です。<br />
-
-<center>
-水平方向の力の和=30N+20N-20N-50N=-20N(右を+とする場合)
-</center>
-<center>
-<img src="\images\1-2.png" />
-</center>
-<center>
-図2 一直線の力の和
-</center>
-<h2 id="一点に作用する力">(2) 一点に作用する力</h2>
-　点が複数の力を異なる方向で受ける時に、直接的に足しあうことができないので図3のように計算すべきです。<br />
-
-<center>
-<img src="\images\1-3.png" />
-</center>
-<center>
-図3 力の平行四辺形
-</center>
-<h2 id="平衡に並ぶ力の和">(3) 平衡に並ぶ力の和</h2>
-　二つの力が一直線に鉛直される時に、簡単に足しあうことで合力の大きさが計算できるが、この合力の位置が計算できない。この時、バリニオンの定理を使わなければならない。<br />
-　バリニオンの定理:
-<center>
-<span
-class="math display">\[合力の曲げモーメント=分力の曲げモーメントの総合\]</span>
-</center>
-<p>　図4の例のように、合力のPは分力の和で<span
-class="math display">\[P=P_{A}+P_{B}\]</span>合力の位置はバリニオンの定理により、</p>
-<center>
-<span class="math display">\[P·x=P_{A}·0+P_{B}·300\]</span>
-</center>
-<center>
-<span class="math display">\[x=\frac{P_{B}}{P}·300\]</span>
-</center>
-<p>で計算できます。</p>
-<center>
-<img src="\images\1-4.png" />
-</center>
-<center>
-図3 平衡に並ぶ力
-</center>
-<h1 id="力の分解">3. 力の分解</h1>
-<p>　力の分解は一点に作用する力の合力の計算流れに相反で、分解したい方向を定めて分力が計算できます。</p>
-<center>
-<span
-class="math display">\[P_{まとめたいの方向の力}=\frac{P_{まとめたいの方向の辺の長さ}}{P_{斜めの辺の長さ}}·P_{元}\]</span>
-</center>
-<h1 id="まとめ">4. まとめ</h1>
-　今回のことは高校生の時の物理科目として勉強すべきなので難しくなくて最も易しい知識です。
-<center>
-<img src="\images\1.gif" />
-</center>
-]]></content>
-      <categories>
-        <category>日本語</category>
-      </categories>
-      <tags>
-        <tag>建築力学</tag>
-        <tag>日本語</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>ブログの目的</title>
     <url>/ja/1/</url>
     <content><![CDATA[<p>中国の留学生、今は東京理科大学の建築専攻の一年生です。<br />
@@ -90,48 +12,9 @@ class="math display">\[P_{まとめたいの方向の力}=\frac{P_{まとめた�
         <category>日本語</category>
       </categories>
       <tags>
-        <tag>日本語</tag>
         <tag>雑談</tag>
         <tag>鉄鋼構造</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>雑談1</title>
-    <url>/ja/3/</url>
-    <content><![CDATA[<h2 id="はじめに">はじめに</h2>
-　日本に来た半年間ぐらいですが、今日はいよいよはじめに正式に授業を受けられました。この半年間は中国と日本の違う言語、慣習とか大変かたいです。そういえば、今まででも飲食店では店員さんの話しが時々理解できないで大変こまってる。でも、風俗とかの違いを感じるのは留学の大切な経験なので貴重な体験として未来の人生には思い出ると思います。
-<center>
-<img src="\images\Z-1.jpg" />
-</center>
-<h2 id="入学式">入学式</h2>
-　武道館で入学式を開催されました。（ちなみに葛飾から遠すぎじゃん）先日の強い雨風から、千鳥ヶ淵の桜が全部散ったで、大変惜しいです。<br />
-　当日には、入場時間より早く至ったので、看板周辺で撮ってる同僚さんが多くないでも、私は撮りません！
-<center>
-<img src="\images\Z-2.jpg" />
-</center>
-<center>
-これは前話した看板じゃない!
-</center>
-<center>
-<img src="\images\Z-3.jpg" />
-</center>
-席は会場の三階で学部生の親の対面！（ちなみに何でiphoneのカメラの色が元からこんなに差別あるの？）
-<center>
-<img src="\images\Z-4.jpg" />
-</center>
-<h2
-id="fc東京fc東京fc東京fc東京fc東京">FC東京FC東京FC東京FC東京FC東京</h2>
-FC東京を応援してお願いしますニャー。FC東京を応援してお願いします、ありがたいニャー。
-<center>
-<img src="\images\Z-5.jpg" />
-</center>
-]]></content>
-      <categories>
-        <category>日本語</category>
-      </categories>
-      <tags>
         <tag>日本語</tag>
-        <tag>雑談</tag>
       </tags>
   </entry>
   <entry>
@@ -222,6 +105,123 @@ class="math display">\[P_{方向力}=\frac{P_{分力边长A}}{P_{斜边长}}·P_
       <tags>
         <tag>中文</tag>
         <tag>建筑力学</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>建築力学ー力の基礎(1)</title>
+    <url>/ja/2/</url>
+    <content><![CDATA[<h1 id="力の表現">1. 力の表現</h1>
+　構造力学を勉強するため、必要な力の表現方法を解説すべきです。<br />
+　図１のように、ポイントで力を受ける時に、この力を一本の矢印によって表現されます。
+<center>
+<img src="\images\1-1.png" />
+</center>
+<center>
+図1　点に集中する力学の表現
+</center>
+<p>　力の表現には、大きさ、作用点、方向の表現が必要です。これらを「力の三要素」といいます。
+構造力学の中で、力の単位は常にN(ニュートン)とkN(キロニュートン)を使います。</p>
+<h1 id="力の和">2. 力の和</h1>
+<h2 id="一直線の力">(1) 一直線の力</h2>
+　複数の力が存在する時、力の和を計算するには、＋の方向を定めて各力の和をとります。図2のように、水平方向の4つの力の計算例です。<br />
+
+<center>
+水平方向の力の和=30N+20N-20N-50N=-20N(右を+とする場合)
+</center>
+<center>
+<img src="\images\1-2.png" />
+</center>
+<center>
+図2 一直線の力の和
+</center>
+<h2 id="一点に作用する力">(2) 一点に作用する力</h2>
+　点が複数の力を異なる方向で受ける時に、直接的に足しあうことができないので図3のように計算すべきです。<br />
+
+<center>
+<img src="\images\1-3.png" />
+</center>
+<center>
+図3 力の平行四辺形
+</center>
+<h2 id="平衡に並ぶ力の和">(3) 平衡に並ぶ力の和</h2>
+　二つの力が一直線に鉛直される時に、簡単に足しあうことで合力の大きさが計算できるが、この合力の位置が計算できない。この時、バリニオンの定理を使わなければならない。<br />
+　バリニオンの定理:
+<center>
+<span
+class="math display">\[合力の曲げモーメント=分力の曲げモーメントの総合\]</span>
+</center>
+<p>　図4の例のように、合力のPは分力の和で<span
+class="math display">\[P=P_{A}+P_{B}\]</span>合力の位置はバリニオンの定理により、</p>
+<center>
+<span class="math display">\[P·x=P_{A}·0+P_{B}·300\]</span>
+</center>
+<center>
+<span class="math display">\[x=\frac{P_{B}}{P}·300\]</span>
+</center>
+<p>で計算できます。</p>
+<center>
+<img src="\images\1-4.png" />
+</center>
+<center>
+図3 平衡に並ぶ力
+</center>
+<h1 id="力の分解">3. 力の分解</h1>
+<p>　力の分解は一点に作用する力の合力の計算流れに相反で、分解したい方向を定めて分力が計算できます。</p>
+<center>
+<span
+class="math display">\[P_{まとめたいの方向の力}=\frac{P_{まとめたいの方向の辺の長さ}}{P_{斜めの辺の長さ}}·P_{元}\]</span>
+</center>
+<h1 id="まとめ">4. まとめ</h1>
+　今回のことは高校生の時の物理科目として勉強すべきなので難しくなくて最も易しい知識です。
+<center>
+<img src="\images\1.gif" />
+</center>
+]]></content>
+      <categories>
+        <category>日本語</category>
+      </categories>
+      <tags>
+        <tag>日本語</tag>
+        <tag>建築力学</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>雑談1</title>
+    <url>/ja/3/</url>
+    <content><![CDATA[<h2 id="はじめに">はじめに</h2>
+　日本に来た半年間ぐらいですが、今日はいよいよはじめに正式に授業を受けられました。この半年間は中国と日本の違う言語、慣習とか大変かたいです。そういえば、今まででも飲食店では店員さんの話しが時々理解できないで大変こまってる。でも、風俗とかの違いを感じるのは留学の大切な経験なので貴重な体験として未来の人生には思い出ると思います。
+<center>
+<img src="\images\Z-1.jpg" />
+</center>
+<h2 id="入学式">入学式</h2>
+　武道館で入学式を開催されました。（ちなみに葛飾から遠すぎじゃん）先日の強い雨風から、千鳥ヶ淵の桜が全部散ったで、大変惜しいです。<br />
+　当日には、入場時間より早く至ったので、看板周辺で撮ってる同僚さんが多くないでも、私は撮りません！
+<center>
+<img src="\images\Z-2.jpg" />
+</center>
+<center>
+これは前話した看板じゃない!
+</center>
+<center>
+<img src="\images\Z-3.jpg" />
+</center>
+席は会場の三階で学部生の親の対面！（ちなみに何でiphoneのカメラの色が元からこんなに差別あるの？）
+<center>
+<img src="\images\Z-4.jpg" />
+</center>
+<h2
+id="fc東京fc東京fc東京fc東京fc東京">FC東京FC東京FC東京FC東京FC東京</h2>
+FC東京を応援してお願いしますニャー。FC東京を応援してお願いします、ありがたいニャー。
+<center>
+<img src="\images\Z-5.jpg" />
+</center>
+]]></content>
+      <categories>
+        <category>日本語</category>
+      </categories>
+      <tags>
+        <tag>雑談</tag>
+        <tag>日本語</tag>
       </tags>
   </entry>
 </search>
