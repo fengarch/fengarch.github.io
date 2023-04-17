@@ -60,9 +60,9 @@
   <noscript>
     <link rel="stylesheet" href="/css/noscript.css">
   </noscript>
-  <!--pjax：防止跳转页面音乐暂停-->
- <script src="https://cdn.jsdelivr.net/npm/pjax@0.2.8/pjax.js"></script>
- 
+
+  <script src="https://cdn.jsdelivr.net/npm/pjax@0.2.8/pjax.js"></script> 
+  
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" class="use-motion">
@@ -207,7 +207,11 @@
 
   <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=KOBcjpzYMHkz1h_aIm-xJDc0s-w0ftt6lMzpuco9Dwo"></script>
 
-<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=100% height=86 src="//music.163.com/outchain/player?type=2&id=566063311&auto=1&height=66"></iframe>
+
+  <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 
+      src="//music.163.com/outchain/player?type=2&id=566063311&auto=0&height=66">
+  </iframe>
+
   
 
 
@@ -391,8 +395,8 @@ class="math display">\[P_{方向力}=\frac{P_{分力边长A}}{P_{斜边长}}·P_
 
           <div class="post-nav">
             <div class="post-nav-item">
-                <a href="/ja/3/" rel="prev" title="雑談1">
-                  <i class="fa fa-chevron-left"></i> 雑談1
+                <a href="/ja/2/" rel="prev" title="建築力学ー力の基礎(1)">
+                  <i class="fa fa-chevron-left"></i> 建築力学ー力の基礎(1)
                 </a>
             </div>
             <div class="post-nav-item">
@@ -494,7 +498,8 @@ class="math display">\[P_{方向力}=\frac{P_{分力边长A}}{P_{斜边长}}·P_
 
   
   <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha256-XL2inqUJaslATFnHdJOi9GfQ60on8Wx1C2H8DYiN1xY=" crossorigin="anonymous"></script>
-<script src="/js/comments.js"></script><script src="/js/utils.js"></script><script src="/js/motion.js"></script><script src="/js/next-boot.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/next-theme-pjax/0.6.0/pjax.min.js" integrity="sha256-vxLn1tSKWD4dqbMRyv940UYw4sXgMtYcK6reefzZrao=" crossorigin="anonymous"></script>
+<script src="/js/comments.js"></script><script src="/js/utils.js"></script><script src="/js/motion.js"></script><script src="/js/next-boot.js"></script><script src="/js/pjax.js"></script>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/hexo-generator-searchdb/1.4.1/search.js" integrity="sha256-1kfA5uHPf65M5cphT2dvymhkuyHPQp5A53EGZOnOLmc=" crossorigin="anonymous"></script>
 <script src="/js/third-party/search/local-search.js"></script>
@@ -504,7 +509,7 @@ class="math display">\[P_{方向力}=\frac{P_{分力边长A}}{P_{斜边长}}·P_
 
 
   
-  <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+  <script data-pjax async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 
 
 
